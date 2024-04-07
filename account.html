@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Login to Multikart 
+    </title>
+    <style type="text/css">
+      .login-box{
+        width:300px;
+        margin:100px auto;
+        padding:20px;
+        border:1px solid #ccc;
+        border-radius:5px;
+        background:#f8f8f8;
+      }
+      input[type=text],input[type=password]{
+        width:100%;
+        padding:10px;
+        margin:5px 0;
+        border:1px solid #ccc;
+        border-radius:4px;
+        box-sizing:border-box;
+      }
+
+      button {
+        background-color:#4CAF50;
+        color:white;
+        padding:10px 20px;
+        border:none;
+        border-radius:4px;
+        cursor:pointer;
+      }
+
+      .login-box p {
+        margin-bottom:10px;
+      }
+
+      .navbar{
+        display:flex;
+        align-items:center;
+        padding:20px;
+      }
+
+      nav{
+        flex:1;
+        text-align:right;
+      }
+
+      nav ul{
+        display:inline-block;
+        list-style-type:none;
+      }
+
+      nav ul li {
+        display:inline-block;
+        margin-right:20px;
+      }
+
+      a{
+        text-decoration:none;
+        color:#555;
+      }
+
+      p{
+        color:#555;
+      }
+
+      .container
+      {
+        max-width:1300px;
+        margin:auto;
+        padding-left:25px;
+        padding-right:25px;
+      }
+
+      .row
+      {
+        display:flex;
+        align-items:center;
+        flex-wrap:wrap;
+        justify-content:space-around;
+
+      }
+
+      .col-2{
+        flex-basis:50%;
+        min-width:300px;
+      }
+
+      .col-2 img{
+        max-width:100%;
+        padding:50px 0px;
+      }
+
+      .col-2 h1
+      {
+        font-size:50px;
+        line-height:60px;
+        margin:25px 0;
+      }
+
+      .btn{
+        display:inline-block;
+        background:#FF4c3b;
+        color:#FFFFFF;
+        padding:8px 30px;
+        margin:30px 0px;
+        border-radius:30px;
+        transition:background 0.5s;
+      }
+
+      .btn:hover{
+        background:#563434;
+      }
+      .header{
+        background:radial-gradient(#fff,#ffd6d6);
+      }
+
+      .header .row{
+        margin-top:70px;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="https://angular.pixelstrap.com/multikart/assets/images/icon/logo.png" alt="NoImage" width="125px"/></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="https://i.ibb.co/PNjjx3y/cart.png" alt="Sorry" width="30px" height="30px"></a>
+      </div>
+    </div>
+ </div>
+ <div class="login-box">
+  <h2>Login</h2>
+  <form action="login" method="post">
+    <p>User Name: </p>
+    <input type="text" name="username">
+    <p>Password:</p>
+    <input type="password" name="password">
+    <button type="submit">Signup</button>
+  </form>
+</div>
+  </body>
+</html>
